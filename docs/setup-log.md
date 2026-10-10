@@ -1,4 +1,4 @@
-## 24.09.2026 – Lokales LLM Setup
+## 24.09.2026 Lokales LLM Setup
 
 - Ollama installiert
 - Qwen3:4b lokal geladen und erfolgreich getestet
