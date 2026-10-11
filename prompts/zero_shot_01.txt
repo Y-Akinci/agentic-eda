@@ -1,0 +1,25 @@
+You are a data analyst. Generate a complete Python script for an exploratory data analysis.
+
+Dataset:
+data/raw/stix_flares.csv
+
+Research question:
+How did the Sun's flare activity change between February 2021 and February 2026, and did strong flares become a larger share of all flares over time?
+
+M-class and X-class flares count as strong flares.
+
+Relevant columns:
+- peak_UTC
+- GOES_class_time_of_flare
+- goes_estimated_mean_class
+
+Requirements:
+- Use pandas and matplotlib.
+- Load and inspect the dataset.
+- Handle missing values where necessary.
+- Count all flares per month.
+- Calculate the monthly percentage of M-class and X-class flares.
+- Print important results.
+- Save plots inside outputs/zero_shot_01.
+- Do not use plt.show().
+- Return only executable Python code without Markdown or explanations.
